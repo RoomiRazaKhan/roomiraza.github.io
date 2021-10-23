@@ -1,0 +1,351 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Your Cart | Ryana Calendars</title>
+<link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.css">
+<link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap-grid.css">
+<link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
+<link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap-reboot.css">
+<link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap-reboot.min.css">
+<link type="text/javascript" href="js/script.js">
+<link type="text/css" rel="stylesheet" href="css/style.css">
+<link rel="shortcut icon" href="images/favicon.ico">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/bdf3fab1de.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!--==========Primary Header Starts here======================-->
+    <header>
+  	
+    	<div>
+			<a href="index.html"><img src="images/Logo.png" width="10%"></a> 
+        </div>
+        <div class="srch_pos">
+            <form class="example" action="/action_page.php">
+              <input type="text" placeholder="Search For Products" name="search">
+              <button type="submit"><a class="">search</a></button>
+            </form> 
+         </div>
+         <div>
+         <a href="cart.html" style="color:rgba(15,177,236,1); float:right; margin-top:-35px; margin-right:10px;"><i class="fas fa-shopping-cart fa-2x"></i></a>
+         </div>
+
+	</header>
+<!--==========Primary Header Ends here======================-->
+
+<!--==========Secondary Header (Navbar) Starts here======================-->
+
+<section class="nav-sec sticky">
+<nav class="navbar navbar-expand-lg my_navbar">
+<div class="container-fluid" >
+	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="main_nav">
+		<ul class="navbar-nav">
+			<li class="nav-item"> <a class="nav-my" href="index.html">HOME </a> </li>
+			<li class="nav-item"><a class="nav-my" href="we_provide.html"> WE PROVIDE </a></li>
+			<li class="nav-item"><a class="nav-my" href="contact_us.html"> CONTACT US </a></li>
+			<li class="nav-item dropdown has-megamenu">
+			<a class="nav-my dropdown-toggle" href="" data-bs-toggle="dropdown"> PRODUCTS  </a>
+				<div class="dropdown-menu megamenu" role="menu">
+					<div class="row g-3">
+						<div class="col-lg-3 col-6">
+							<div class="col-megamenu">
+								<h6 class="title">CALENDARS</h6>
+								<ul class="list-unstyled">
+									
+                                    <li><a href="c_desk_calendars.html" class="list">Desk Calendars</a></li>
+									<li><a href="c_wall_calendars.html" class="list">Wall Calendars</a></li>
+									
+								</ul>
+							</div>  <!-- col-megamenu.// -->
+						</div><!-- end col-3 -->
+						<div class="col-lg-3 col-6">
+							<div class="col-megamenu">
+								<h6 class="title">JOURNALS</h6>
+								<ul class="list-unstyled">
+									
+                                    <li><a href="c_basic_journals.html" class="list">Ryana Basics</a></li>
+									<li><a href="c_classic_journals.html" class="list">Ryana Classics</a></li>
+					
+								</ul>
+							</div>  <!-- col-megamenu.// -->
+						</div><!-- end col-3 -->
+						<div class="col-lg-3 col-6">
+							<div class="col-megamenu">
+								<h6 class="title">STICKERS</h6>
+								<ul class="list-unstyled">
+									
+                                    <li><a href="c_galaxy_stickers.html" class="list">Galaxy</a></li>
+									<li><a href="c_for_girls.html" class="list">Stickers For Girls</a></li>
+									<li><a href="c_travel_stickers.html" class="list">Travel</a></li>
+
+								</ul>
+							</div>  <!-- col-megamenu.// -->
+						</div>    
+					</div><!-- end row --> 
+				</div> <!-- dropdown-mega-menu.// -->
+			</li>
+		</ul>
+	</div> <!-- navbar-collapse.// -->
+</div> <!-- container-fluid.// -->
+</nav>
+</section>
+<!--==========Secondary Header (Navbar) Ends here======================-->
+
+<!--==========Bread Crumbs start here======================-->
+<ul class="breadcrumb container">
+  <li><a href="index.html">Home</a></li>
+  <li><a>my cart</a></li>
+</ul>
+<!--==========Bread Crumbs Ends here======================-->
+
+<!--==========Product List Starts here======================-->
+
+<section class="pb-4">
+    <div class="container p-3">
+    	<div class="" align="center">
+        	<div class="row">
+            	<div class="col-3">
+                	<h6 style="font-family:jakartalight; color:rgba(153,153,153,1);"> Product Image </h6>
+                </div>
+                <div class="col-3">
+                	<h6 style="font-family:jakartalight; color:rgba(153,153,153,1);"> Product Name </h6>
+                </div>
+                <div class="col-3">
+                	<h6 style="font-family:jakartalight; color:rgba(153,153,153,1);"> No. of products </h6>
+                </div>
+                <div class="col-3">
+                	<h6 style="font-family:jakartalight; color:rgba(153,153,153,1);"> Product Price </h6>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cart_row" align="center">
+        	<div class="row">
+            	<div class="col-3" style="margin-top:2px;">
+                	<img src="images/journals/01.png" width="25%">
+                </div>
+                <div class="col-3">
+                	<h6 class="cart_prod_h6"> Chai Helps </h6>
+                </div>
+                
+                <div class="col-3">
+                	<h6 class="cart_prod_h6"> x1 </h6>
+                </div>
+                <div class="col-3">
+                	<h6 class="cart_prod_h6"> Rs 899/- </h6>
+                </div>
+            </div>
+        </div> 
+        
+        <div class="cart_row" align="center">
+        	<div class="row">
+            	<div class="col-3" style="margin-top:2px;">
+                	<img src="images/journals/01.png" width="25%">
+                </div>
+                <div class="col-3">
+                	<h6 class="cart_prod_h6"> Chai Helps </h6>
+                </div>
+                
+                <div class="col-3">
+                	<h6 class="cart_prod_h6"> x1 </h6>
+                </div>
+                <div class="col-3">
+                	<h6 class="cart_prod_h6"> Rs 899/- </h6>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cart_row" align="center">
+        	<div class="row">
+            	<div class="col-3" style="margin-top:2px;">
+                	<img src="images/journals/01.png" width="25%">
+                </div>
+                <div class="col-3">
+                	<h6 class="cart_prod_h6"> Chai Helps </h6>
+                </div>
+                
+                <div class="col-3">
+                	<h6 class="cart_prod_h6"> x1 </h6>
+                </div>
+                <div class="col-3">
+                	<h6 class="cart_prod_h6"> Rs 899/- </h6>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cart_row" align="center">
+        	<div class="row">
+            	<div class="col-3" style="margin-top:2px;">
+                	<img src="images/journals/01.png" width="25%">
+                </div>
+                <div class="col-3">
+                	<h6 class="cart_prod_h6"> Chai Helps </h6>
+                </div>
+                
+                <div class="col-3">
+                	<h6 class="cart_prod_h6"> x1 </h6>
+                </div>
+                <div class="col-3">
+                	<h6 class="cart_prod_h6"> Rs 899/- </h6>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cart_row" align="center">
+        	<div class="row">
+            	<div class="col-3" style="margin-top:2px;">
+                	<img src="images/journals/01.png" width="25%">
+                </div>
+                <div class="col-3">
+                	<h6 class="cart_prod_h6"> Chai Helps </h6>
+                </div>
+                
+                <div class="col-3">
+                	<h6 class="cart_prod_h6"> x1 </h6>
+                </div>
+                <div class="col-3">
+                	<h6 class="cart_prod_h6"> Rs 899/- </h6>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cart_row" align="center">
+        	<div class="row">
+            	<div class="col-3" style="margin-top:2px;">
+                	<img src="images/journals/01.png" width="25%">
+                </div>
+                <div class="col-3">
+                	<h6 class="cart_prod_h6"> Chai Helps </h6>
+                </div>
+                
+                <div class="col-3">
+                	<h6 class="cart_prod_h6"> x1 </h6>
+                </div>
+                <div class="col-3">
+                	<h6 class="cart_prod_h6"> Rs 899/- </h6>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cart_row" align="center">
+        	<div class="row">
+            	<div class="col-3" style="margin-top:2px;">
+                	<img src="images/journals/01.png" width="25%">
+                </div>
+                <div class="col-3">
+                	<h6 class="cart_prod_h6"> Chai Helps </h6>
+                </div>
+                
+                <div class="col-3">
+                	<h6 class="cart_prod_h6"> x1 </h6>
+                </div>
+                <div class="col-3">
+                	<h6 class="cart_prod_h6"> Rs 899/- </h6>
+                </div>
+            </div>
+        </div>
+        
+        <div class="" align="center">
+        	<div class="row p-0">
+                <div class="col-4">
+                	<h6 class="cart_prod_total"> Total </h6>
+                </div>
+                
+                <div class="col-4">
+                	<h6 class="cart_prod_total"> Rs 7000/- </h6>
+                </div>
+            </div>
+        </div>
+        
+        <div class="" align="center" >
+        	<div class="row p-0">
+                <div class="col-4">
+                	<h6 class="cart_prod_total"> Delivery Charges </h6>
+                </div>
+                
+                <div class="col-4">
+                	<h6 class="cart_prod_total"> Rs 500/- </h6>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="" align="center" >
+        	<div class="row p-0">
+                <div class="col-4">
+                	<h6 class="cart_prod_total"> Grand Total </h6>
+                </div>
+                
+                <div class="col-4">
+                	<h6 class="cart_prod_total"> Rs 7500/- </h6>
+                </div>
+                
+                <div class="sec_3_btn col-4 mt-3">
+            		<a href="#" class="btn-2 btn-white-2 btn-animated-2"> Proceed to checkout → </a>
+         		</div>
+            </div>
+        </div>
+        
+        
+            	
+    </div>
+</section>
+
+
+
+<!--========== Product List Ends here======================-->
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Products</h3>
+                        <ul>
+                            <li><a href="#calendars">Calendars</a></li>
+                            <li><a href="#journals">Journals</a></li>
+                            <li><a href="#stickers">Stickers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item f-text">
+                        <h3>Ryana Calendars</h3>
+                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                    </div>
+                        <div class="col item social">
+                            <a href="#"><i class="fab fa-facebook fa-lg"></i></a>
+                            <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
+                            <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+                        </div>
+                	</div>
+                <p class="copyright">Ryana Calendars © 2021</p>
+            </div>
+        </footer>
+    </div>
+
+</body>
+<!--<script type="text/javascript">
+	document.addEventListener("DOMContentLoaded", function(){
+        /////// Prevent closing from click inside dropdown
+        document.querySelectorAll('.dropdown-menu').forEach(function(element){
+        	element.addEventListener('click', function (e) {
+        		e.stopPropagation();
+        	});
+        })
+    }); 
+	// DOMContentLoaded  end
+</script>
+-->
+</html>
