@@ -1,0 +1,73 @@
+<!-- ============= COMPONENT ============== -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+ <div class="container-fluid">
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse" id="main_nav">
+	<ul class="navbar-nav">
+		<li class="nav-item active"> <a class="nav-link" href="#">Home </a> </li>
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  Calendars  </a>
+		    <ul class="dropdown-menu fade-up">
+			  <li><a class="dropdown-item" href="#"> Desk Calendars</a></li>
+			  <li><a class="dropdown-item" href="#"> Wall Calendars </a></li>
+		    </ul>
+		</li>
+        
+        <li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  Journals  </a>
+		    <ul class="dropdown-menu fade-up">
+			  <li><a class="dropdown-item" href="#"> Basic Journals </a></li>
+			  <li><a class="dropdown-item" href="#"> Classic Journals </a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+		    </ul>
+		</li>
+	</ul>
+  </div> <!-- navbar-collapse.// -->
+ </div> <!-- container-fluid.// -->
+</nav>
+
+
+@media all and (min-width: 992px) {
+	.navbar .dropdown-menu-end{ 
+		
+		right:0; 
+		left: auto;  
+		
+		}
+	.navbar .nav-item .dropdown-menu{  
+		
+		display:block; 
+		opacity: 0;  
+		visibility: hidden; 
+		transition:.3s; 
+		margin-top:0; 
+		box-shadow:rgba(0,51,255,0.1) 2px 2px 50px 1px;
+		font-size:16px; 
+		
+		}
+	.navbar .nav-item:hover .nav-link{
+		
+		color: #fff;  
+		
+		}
+	.navbar .dropdown-menu.fade-down{ 
+		
+		top:80%; 
+		transform: rotateX(-75deg); 
+		transform-origin: 0% 0%; 
+		
+		}
+	.navbar .dropdown-menu.fade-up{ 
+		
+		top:180%;  
+		
+		}
+	.navbar .nav-item:hover .dropdown-menu{ 
+		transition: .3s; 
+		opacity:1; 
+		visibility:visible; 
+		top:100%; 
+		transform: rotateX(0deg); }
+}
